@@ -9,8 +9,28 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 34.0, 101.0, 1400.0, 1034.0 ],
+        "rect": [ 97.0, 114.0, 1400.0, 1034.0 ],
         "boxes": [
+            {
+                "box": {
+                    "id": "obj-10",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 150.0, 66.54621458053589, 46.0, 20.0 ],
+                    "text": "speed"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-6",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 50.0, 40.800000071525574, 93.27730536460876, 20.0 ],
+                    "text": "start generation"
+                }
+            },
             {
                 "box": {
                     "id": "obj-89",
@@ -450,7 +470,7 @@
             {
                 "patchline": {
                     "destination": [ "obj-37", 0 ],
-                    "midpoints": [ 59.138649702072144, 156.0638883113861 ],
+                    "midpoints": [ 59.07982897758484, 156.0638883113861 ],
                     "order": 3,
                     "source": [ "obj-35", 0 ]
                 }
